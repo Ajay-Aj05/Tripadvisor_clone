@@ -499,3 +499,99 @@ body{
     width: 100%;
     background-color: rgb(128, 128, 128,0.08);
 }
+/*---media-query--*/
+
+@media (max-width: 720px) {
+    .navbar-2{
+        display: none;
+
+    }
+    .menubar{
+        display: none;
+    }
+    .home-image{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .home-text{
+        width: 200px;
+        align-items: center;
+    }
+    .home-text h2{
+        font-size: 40px;
+        
+    }
+    .travel-place{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+        margin-left: 100px;
+
+    }
+    .experiences{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .experiences-img{
+        width: 400px;
+    }
+    .tripingexplore{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .explore-card img{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .explore-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nexttrip , .nexttrip2{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    .bottom1{
+        margin: 0;
+    }
+    .bottom2{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .footer1 , .footer2 {
+        margin: 0;
+        gap: 30px;
+    }
+    .footer2{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
